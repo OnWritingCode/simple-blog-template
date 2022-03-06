@@ -11,10 +11,13 @@ body {
 	color: var( --text-color );
 }	
 
-.content {
+.container {
 	width: var( --content-width );
 	margin-left: auto;
 	margin-right: auto;
+}
+.content {
+	@extend .container;
 	padding-bottom: 32px;
 
 

@@ -1,6 +1,7 @@
 ---
 import slug from "slug";
 import Blog from "@layouts/blog";
+import Date from "@components/utilities/Date";
 import { Markdown } from 'astro/components';
 
 
@@ -18,7 +19,24 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 ---
 <Blog title={post.title}>
+	<div class="post-header container">
+		<h1 class="post-title">{post.title}</h1>
+		<div class="post-date">
+			<Date date={post.date}/>
+		</div>
+	</div>
 	<div class="content">
 		<Markdown content={post.astro.source} />
 	</div>
 </Blog>
+
+
+<style>
+	.post-header {
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+	.post-date {
+		font-size: 0.75rem;
+	}
+</style>
