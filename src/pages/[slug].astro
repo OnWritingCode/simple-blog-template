@@ -1,6 +1,8 @@
 ---
 import slug from "slug";
 import Blog from "@layouts/blog";
+import { Markdown } from 'astro/components';
+
 
 export async function getStaticPaths() {
   const posts = await Astro.fetchContent('../content/*.md');
@@ -17,6 +19,6 @@ const { post } = Astro.props;
 ---
 <Blog title={post.title}>
 	<div class="content">
-		{post.astro.html}
+		<Markdown content={post.astro.source} />
 	</div>
 </Blog>
