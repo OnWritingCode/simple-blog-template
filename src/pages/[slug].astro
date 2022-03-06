@@ -1,0 +1,36 @@
+---
+import slug from "slug";
+
+export async function getStaticPaths() {
+  const posts = await Astro.fetchContent('../content/*.md');
+
+  return posts.map((post) => {
+    return { 
+        params: { slug: slug(post.title) },
+        props: { post }
+    };
+  })
+}
+
+const { post } = Astro.props;
+---
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>{post.title}</title>
+	<style global>
+		@import "../style/style.scss";
+	</style>
+</head>
+
+<body>
+
+	<div class="content">
+		{post.astro.html}
+	</div>
+
+</body>
+
+</html>
