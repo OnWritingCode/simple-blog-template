@@ -1,5 +1,6 @@
 ---
 import slug from "slug";
+import Blog from "@layouts/blog";
 
 export async function getStaticPaths() {
   const posts = await Astro.fetchContent('../content/*.md');
@@ -14,23 +15,8 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 ---
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<title>{post.title}</title>
-	<style global>
-		@import "../style/style.scss";
-	</style>
-</head>
-
-<body>
-
+<Blog title={post.title}>
 	<div class="content">
 		{post.astro.html}
 	</div>
-
-</body>
-
-</html>
+</Blog>
