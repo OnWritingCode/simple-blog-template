@@ -19,7 +19,7 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
 				// If you are using shiki, here you can define a global theme and
 				// add custom languages.
 				shikiConfig: {
-					theme: 'github-dark',
+					theme: 'poimandres',
 					langs: [],
 					wrap: false,
 				},
