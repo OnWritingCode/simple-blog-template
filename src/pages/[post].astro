@@ -1,19 +1,19 @@
 ---
 import Blog from "@layouts/blog";
 import Date from "@components/utilities/Date";
-import { all } from "@data/post"
-import { Markdown } from 'astro/components';
+import { all, getRSS } from "@data/post"
 
+export async function getStaticPaths({ rss }) {
+	const posts = all(await Astro.fetchContent('../content/*.md'));
 
-export async function getStaticPaths() {
-  const posts = all( await Astro.fetchContent('../content/*.md') );
-	
-  return posts.map((post) => {
-    return { 
-        params: { post: post.slug },
-        props: { post }
-    };
-  })
+	rss(getRSS(posts));
+
+	return posts.map((post) => {
+		return {
+			params: { post: post.slug },
+			props: { post }
+		};
+	})
 }
 
 const { post } = Astro.props;
