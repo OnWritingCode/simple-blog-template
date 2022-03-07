@@ -1,12 +1,7 @@
-# Astro Starter Kit: Minimal
+# Blank Slate
 
-```
-npm init astro -- --template minimal
-```
+This is a blank slate project for starting a blog with Astro.js.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ## 🚀 Project Structure
 
@@ -14,18 +9,22 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ```
 /
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+├── public
+└── src
+    ├── components
+    │   ├── layouts
+    │   └── utilities
+    ├── content
+    ├── pages
+    └── style
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+ * *pages* - This directory is significant for Astro. Files here become URLs.
+ * *components* - Template parts, layouts, utilities, all go here.
+ * *content* - Keep the content separate from the system for clearer separation. 
+ * *style* - Global SCSS styles.
+ * *public* - A directory where to place any static files that need to be used on the site.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
@@ -40,4 +39,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check out [Astro documentation](https://github.com/withastro/astro) or jump into [Astro's Discord server](https://astro.build/chat).
