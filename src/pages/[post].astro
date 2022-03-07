@@ -26,7 +26,7 @@ const { post } = Astro.props;
 		</div>
 	</div>
 	<div class="content">
-		{post.astro.html}
+		<Fragment set:html={post.astro.html} />
 	</div>
 </Blog>
 
