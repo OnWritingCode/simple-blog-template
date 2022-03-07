@@ -9,7 +9,7 @@ This is a blog post.
 
 ## CSS Reset
 
-Here's a [custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) by Josh w Comeau:
+Here's a [custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) by Josh W. Comeau:
 
 ```css
 /*
