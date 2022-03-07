@@ -10,3 +10,9 @@
 		margin-top: auto;
 	}
 }
+
+.container {
+	width: var( --container-width );
+	margin-left: auto;
+	margin-right: auto;
+}

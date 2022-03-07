@@ -25,7 +25,7 @@ const { post } = Astro.props;
 			<Date date={post.date}/>
 		</div>
 	</div>
-	<div class="content">
+	<div class="content container">
 		<Fragment set:html={post.astro.html} />
 	</div>
 </Blog>
@@ -38,5 +38,9 @@ const { post } = Astro.props;
 	}
 	.post-date {
 		font-size: 0.75rem;
+	}
+
+	.content {
+		margin-bottom: 40px;
 	}
 </style>

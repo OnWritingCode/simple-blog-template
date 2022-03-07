@@ -1,6 +1,7 @@
 @use "reset";
 @use "variables";
 @use "layout";
+@use "content";
 
 body {
 	line-height: 1.6;
@@ -11,51 +12,3 @@ body {
 	background: var( --background-color );
 	color: var( --text-color );
 }	
-
-.container {
-	width: var( --content-width );
-	margin-left: auto;
-	margin-right: auto;
-}
-.content {
-	@extend .container;
-	padding-bottom: 32px;
-
-
-	a {
-		color: hsl(188 74% 50%);
-
-		&:hover {
-			color: hsl(188 74% 70%);
-		}
-	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		margin-top: 2.4em;
-		margin-bottom: 1.125em;
-		
-		a {
-			color: inherit;
-			text-decoration: none;
-
-			&:hover, &:focus {
-				color: inherit;
-				text-decoration: underline;
-			}
-		}
-	}
-
-	p {
-		margin-bottom: 30px;
-	}
-
-	pre {
-		padding: 33px 22px;
-		border-radius: 18px;
-	}
-}
