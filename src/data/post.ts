@@ -13,7 +13,7 @@ export function single(post): Post {
 	return {
 		...post,
 		slug: slug(post.title),
-		timestamp: (new Date(post)).valueOf()
+		timestamp: (new Date(post.date)).valueOf()
 	}
 }
 
