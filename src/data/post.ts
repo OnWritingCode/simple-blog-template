@@ -22,5 +22,5 @@ export function all(posts: Post[]) {
 	return posts
 		.map(post => single(post))
 		.filter( post => true !== post.draft )
-		.sort((a, b) => a.timestamp - b.timestamp)
+		.sort((a, b) => b.timestamp - a.timestamp)
 }
