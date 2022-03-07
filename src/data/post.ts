@@ -6,6 +6,7 @@ export type Post = {
 	preview: string,
 	timestamp: number,
 	draft: boolean,
+	date: string,
 }
 
 
