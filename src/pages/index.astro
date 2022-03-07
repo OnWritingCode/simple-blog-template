@@ -7,7 +7,7 @@ const posts = all( await Astro.fetchContent('../content/*.md') );
 ---
 
 <Blog title="Blank Slate Blog">
-	<div class="content">
+	<div class="content container">
 		{posts.map((p) => <Preview post={p} />)}
 	</div>
 </Blog>
