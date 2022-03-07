@@ -1,0 +1,12 @@
+// A technique to always stick footer to the bottom of the page.
+// Depends on html, body having 100% height
+// https://www.joshwcomeau.com/css/custom-css-reset/#digit-percentage-based-heights
+.main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	
+	> .bottom {
+		margin-top: auto;
+	}
+}
