@@ -1,0 +1,9 @@
+---
+	import type { Post } from '@data/post';
+	const post: Post = Astro.props.post
+---
+
+<div>
+	<h2><a href={`/${post.slug}`}>{post.title}</a></h2>
+	<p>{post.preview}</p>
+</div>

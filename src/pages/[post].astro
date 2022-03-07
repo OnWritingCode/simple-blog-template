@@ -1,16 +1,16 @@
 ---
-import slug from "slug";
 import Blog from "@layouts/blog";
 import Date from "@components/utilities/Date";
+import { all } from "@data/post"
 import { Markdown } from 'astro/components';
 
 
 export async function getStaticPaths() {
-  const posts = await Astro.fetchContent('../content/*.md');
-
+  const posts = all( await Astro.fetchContent('../content/*.md') );
+	
   return posts.map((post) => {
     return { 
-        params: { post: slug(post.title) },
+        params: { post: post.slug },
         props: { post }
     };
   })
@@ -26,7 +26,7 @@ const { post } = Astro.props;
 		</div>
 	</div>
 	<div class="content">
-		<Markdown content={post.astro.source} />
+		{post.astro.html}
 	</div>
 </Blog>
 

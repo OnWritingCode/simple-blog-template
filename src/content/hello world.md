@@ -2,6 +2,7 @@
 title: Hello World
 draft: false
 date: 2022-03-08
+preview: "Obligatory \"Hello World\" post."
 ---	
 
 Wow I really crononberg'd up the whole place huh Morty, just a bunch a cronenbergs walkin around. Snuffles was my slave name. You can call me Snowball, because my fur is pretty and white. If I've learned one thing, it's that before you get anywhere in life, you gotta stop listening to yourself. Cool. Just stay in the driveway; the kill-bots are live, and I took you off the whitelist.

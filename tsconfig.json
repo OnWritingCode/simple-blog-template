@@ -8,7 +8,10 @@
 			],
 			"@layouts/*": [
 				"src/components/layouts/*.astro"
-			]
+			],
+			"@data/*": [
+				"src/data/*.ts"
+			],
 		},
 	}
 }

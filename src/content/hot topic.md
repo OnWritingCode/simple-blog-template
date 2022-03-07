@@ -1,7 +1,8 @@
 ---
-title: 🔥 Hot Topic
+title: Hot Topic
 draft: false
 date: 2022-03-07
+preview: "Hot topic post looking into the Science..."
 ---
 
 Return it? Are you insane? Did you hear nothing I said? Buy another one, Morty! Consume, Morty! Nobody's out there shopping with this fucking virus! Shadow Jacker, you haven't come out of your masturbation cave in eons! My name is Slip- Slippery Stair. I'll take ya down there for 25 shmeckels! Jesus Christ! Did the boomy-booms blow up all your wordy-word books?
