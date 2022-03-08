@@ -1,17 +1,14 @@
 ---
+	import "../../style/style.scss"
 	import Top from "@components/Top";
 	import Bottom from "@components/Bottom";
 	const {title} = Astro.props;
-	
 ---
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>{title}</title>
-	<style global lang="scss">
-		@import "../../style/style.scss";
-	</style>
 </head>
 <body>
 	<div class="main">
