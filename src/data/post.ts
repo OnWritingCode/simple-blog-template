@@ -17,7 +17,7 @@ export function single(post): Post {
 	}
 }
 
-export function all(posts: Post[]) {
+export function published(posts: Post[]): Post[] {
 	return posts
 		.map(post => single(post))
 		.filter(post => true !== post.draft)

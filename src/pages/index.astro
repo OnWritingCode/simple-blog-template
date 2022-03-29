@@ -1,9 +1,9 @@
 ---
-import { all } from "@data/post"
+import { published } from "@data/post"
 import Blog from "@layouts/blog";
 import Preview from "@components/blog/preview";
 
-const posts = all( await Astro.fetchContent('../content/*.md') );
+const posts = published( await Astro.fetchContent('../content/*.md') );
 ---
 
 <Blog title="Blank Slate Blog">
