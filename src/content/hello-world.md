@@ -1,6 +1,5 @@
 ---
 title: Hello World
-draft: false
 date: 2022-03-08
 preview: "Obligatory \"Hello World\" post."
 ---	

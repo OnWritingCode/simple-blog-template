@@ -1,6 +1,5 @@
 ---
 title: Hot Topic
-draft: false
 date: 2022-03-07
 preview: "Hot topic post looking into the Science..."
 ---

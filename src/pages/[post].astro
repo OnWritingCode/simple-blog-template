@@ -4,7 +4,7 @@ import Date from "@components/utilities/Date";
 import { published, getRSS } from "@data/post"
 
 export async function getStaticPaths({ rss }) {
-	const posts = published(await Astro.fetchContent('../content/*.md'));
+	const posts = published(await Astro.fetchContent('../content/**/*.md'));
 
 	rss(getRSS(posts));
 
