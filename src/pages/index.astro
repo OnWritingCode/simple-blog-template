@@ -6,7 +6,7 @@ import Preview from "@components/blog/preview";
 const posts = published( await Astro.fetchContent('../content/*.md') );
 ---
 
-<Blog title="Blank Slate Blog">
+<Blog title="Astro Blog">
 	<div class="content container">
 		{posts.map((p) => <Preview post={p} />)}
 	</div>
