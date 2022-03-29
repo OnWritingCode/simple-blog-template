@@ -12,3 +12,11 @@ body {
 	background: var( --background-color );
 	color: var( --text-color );
 }	
+
+a {
+	color: hsl(188 74% 50%);
+
+	&:hover, &:focus {
+		color: hsl(188 74% 70%);
+	}
+}
