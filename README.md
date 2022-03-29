@@ -1,6 +1,20 @@
 # Simple Blog Template
 
-This is a starter template for starting a blog with Astro.js.
+This is a starter template for starting a blog with Astro.js with a few basic utilities to get you started.
+
+**Features**
+
+🛸 Full Markdown support
+🛸 Separation between Markdown files and Astro pages
+🛸 Drafts directory for posts that aren't published yet
+🛸 Syntax Highlighting with Shiki
+🛸 Global styles directory
+🛸 RSS 2.0 generation
+
+**Languages**
+* TypeScript
+* Sass (scss)
+
 
 ## 🚀 Quick Start
 
