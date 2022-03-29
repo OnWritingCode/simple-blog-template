@@ -4,9 +4,17 @@ date: 2022-03-08
 preview: "Obligatory \"Hello World\" post."
 ---	
 
-Wow I really crononberg'd up the whole place huh Morty, just a bunch a cronenbergs walkin around. Snuffles was my slave name. You can call me Snowball, because my fur is pretty and white. If I've learned one thing, it's that before you get anywhere in life, you gotta stop listening to yourself. Cool. Just stay in the driveway; the kill-bots are live, and I took you off the whitelist.
+Those two men, the assassins. I believe I was their prime target, but that somehow they were steered away from me to my brother-in-law. Because of this 'intervention' I am alive. And yet, I think that this person was playing a much deeper game. He made that phone call because he wanted a shootout not a silent assassination. 
 
-Nothing you do matters, your existence is a lie! Aw, geez. Who cares, Morty? Global acts of terrorism happen every day. Uh, here's something that's never happened before—I'm a pickle! I'm Pickle Ri-i-i-ick! Rick, is this a Saw thing? Are you seriously Sawing the Vindicators?
+In one stroke, he bloodied both sides - set the American and Mexican governments against the Cartel, and cut off the supply of methamphetamine to the southwest. If this man had his own source of product on this side of the border, he would have the market to himself. The rewards would be... enormous. 
 
-God, Grandpa, you're such a dick. Yes. He's a getaway driver with Asperger's and my butthole is a demolitions expert. Well let me check my list of powers and weaknesses: ability to do anything, but only whenever I want. Yeah, that sounds like a job for me. Don't be a baby! You avoid getting shot in real life all the time, Morty! Just do the same thing here and we'll be fine!
+We're both adults. I can't pretend I don't know that person is you. I want there to be no confusion. I know I owe you my life. And more than that, I respect the strategy. In your position, I would have done the same. One issue, which troubles me, I don't know what happens when our three-month contract ends. You know why I do this. I want security for my family. 
+
+No speeches. Short speech. You lost your partner today. What's his name - Emilio? Emilio is going to prison. The DEA took all your money, your lab. You got nothing. Square one. But you know the business and I know the chemistry. I'm thinking... maybe you and I could partner up. 
+
+I'm sorry, what were you asking me? Oh, yes, that stupid plastic container I asked you to buy. You see, hydrofluoric acid won't eat through plastic. It will, however, dissolve metal, rock, glass, ceramic. So there's that. How about something with some protein, maybe? Something green, huh? How are you even alive? 
+
+That is seventeen five - your half of the thirty-five thousand. Plus there's an extra fifteen in there, it's all yours, you've earned it. We made a deal. That's right. Because I think that we can do business together - we came to an understanding. Take a look at the money in your hand. Now just imagine making that every week. That's right. Two pounds a week, thirty-five thousand a pound. 
+
+
 
