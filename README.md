@@ -1,9 +1,20 @@
-# Blank Slate
+# Astro Blog Template
 
 This is a blank slate project for starting a blog with Astro.js.
 
+## 🚀 Quick Start
 
-## 🚀 Project Structure
+Setup Astro in a new project using this template:
+
+```shell
+# Initialize with the template:
+npm init astro -- --template OnWritingCode/astro-blog
+npm install
+npm run dev
+```
+That's it! For Astro documentation, visit: https://docs.astro.build
+
+## 💡 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
