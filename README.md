@@ -1,4 +1,4 @@
-# Simple Blog Template
+# 🛸 Simple Blog Template
 
 This is a starter template for starting a blog with Astro.js with a few basic utilities to get you started.
 
