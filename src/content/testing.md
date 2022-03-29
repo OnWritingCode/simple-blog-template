@@ -1,7 +1,7 @@
 ---
 title: Testing
-date: 2022-03-06
-preview: "Testing out code syntax highlighting."
+date: 2022-03-27
+preview: Testing out what syntax highlighting looks like with Shiki.
 ---
 
 This is a blog post.

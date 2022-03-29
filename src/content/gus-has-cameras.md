@@ -1,7 +1,7 @@
 ---
 title: Gus has cameras
 date: 2022-03-07
-preview: Think about it! It's brilliant. So go ahead.
+preview: Listen to yourself! No, he has known everything, all along. Where were you today? In the lab? And you don't think it's possible that Tyrus lifted the cigarette out of your locker?
 ---
 
 No! You don't even believe that! Gus has cameras everywhere, please. Listen to yourself! No, he has known everything, all along. Where were you today? In the lab? And you don't think it's possible that Tyrus lifted the cigarette out of your locker? Come on! Don't you see? You are the last piece of the puzzle. You are everything that he's wanted. 

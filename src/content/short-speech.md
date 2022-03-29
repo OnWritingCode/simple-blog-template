@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: You know the business and I know the chemistry
 date: 2022-03-08
-preview: "Obligatory \"Hello World\" post."
+preview: No speeches. Short speech. You lost your partner today. What's his name - Emilio? Emilio is going to prison. The DEA took all your money, your lab. You got nothing.
 ---	
 
 Those two men, the assassins. I believe I was their prime target, but that somehow they were steered away from me to my brother-in-law. Because of this 'intervention' I am alive. And yet, I think that this person was playing a much deeper game. He made that phone call because he wanted a shootout not a silent assassination. 

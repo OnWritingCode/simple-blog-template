@@ -8,9 +8,11 @@
   }
   /*
 	2. Remove default margin
+	2.1 Dampen how much large fonts affect line height.
   */
   * {
 	margin: 0;
+	line-height: calc(1em + 0.65rem);
   }
   /*
 	3. Allow percentage-based heights in the application
