@@ -3,7 +3,8 @@ import { published } from "@data/post"
 import Blog from "@layouts/blog";
 import Preview from "@components/blog/preview";
 
-const posts = published( await Astro.fetchContent('../content/**/*.md') );
+const markdownFiles = await Astro.fetchContent('../content/**/*.md')
+const posts = published( markdownFiles );
 ---
 
 <Blog title="Simple Blog">
