@@ -3,9 +3,12 @@
 @use "layout";
 @use "content";
 
+html {
+	font-size: 112.5%;
+}
+
 body {
 	line-height: 1.6;
-	font-size: 112.5%;
 	tab-size: 4;
 	font-weight: 400;
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
