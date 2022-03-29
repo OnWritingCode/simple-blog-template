@@ -1,6 +1,6 @@
-# Astro Blog Template
+# Simple Blog Template
 
-This is a blank slate project for starting a blog with Astro.js.
+This is a starter template for starting a blog with Astro.js.
 
 ## 🚀 Quick Start
 
