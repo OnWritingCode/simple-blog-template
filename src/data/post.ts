@@ -1,5 +1,3 @@
-import slug from "slug";
-
 export type Post = {
 	title: string,
 	slug: string,
@@ -9,11 +7,12 @@ export type Post = {
 	date: string,
 }
 
-
 export function single(post): Post {
+	
+	const slug = post.file.pathname.split('/').reverse()[0].replace('.md', '');
 	return {
 		...post,
-		slug: slug(post.title),
+		slug,
 		timestamp: (new Date(post.date)).valueOf()
 	}
 }
