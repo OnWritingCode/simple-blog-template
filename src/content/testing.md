@@ -6,6 +6,19 @@ preview: Testing out what syntax highlighting looks like with Shiki.
 
 This is a blog post.
 
+
+## Astro Example:
+
+```astro
+---
+import Something from "somewhere"
+---
+
+<Something title="Simple Something">
+	This is a component!
+</Something>
+```
+
 ## CSS Reset
 
 Here's a [custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) by Josh W. Comeau:
