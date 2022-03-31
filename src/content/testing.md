@@ -2,6 +2,8 @@
 title: Testing
 date: 2022-03-27
 preview: Testing out what syntax highlighting looks like with Shiki.
+setup: | 
+  import TestComponent from './TestComponent.astro';
 ---
 
 This is a blog post.
@@ -9,15 +11,18 @@ This is a blog post.
 
 ## Astro Example:
 
+You can import components in Markdown too!
 ```astro
 ---
-import Something from "somewhere"
+setup: | 
+  import TestComponent from './TestComponent.astro';
 ---
 
-<Something title="Simple Something">
-	This is a component!
-</Something>
+<TestComponent />
 ```
+
+Live Demo:
+<TestComponent />
 
 ## CSS Reset
 

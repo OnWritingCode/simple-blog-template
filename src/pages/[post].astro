@@ -17,7 +17,8 @@ export async function getStaticPaths({ rss }) {
 	})
 }
 
-const { post } = Astro.props;
+// Destructure to get both `Astro.props.post` and `Astro.props.post.Content`
+const { post: { Content }, post } = Astro.props;
 ---
 <Blog title={post.title}>
 	<div class="post-header container">
@@ -27,7 +28,7 @@ const { post } = Astro.props;
 		</div>
 	</div>
 	<div class="content container">
-		<Fragment set:html={post.astro.html} />
+		<Content />
 	</div>
 </Blog>
 
