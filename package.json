@@ -9,7 +9,8 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.25.4",
+    "@astrojs/sitemap": "^0.1.0",
+    "astro": "^1.0.0-beta.2",
     "sass": "^1.49.9"
   },
   "dependencies": {

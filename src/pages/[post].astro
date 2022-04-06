@@ -4,10 +4,10 @@ import Date from "@components/utilities/Date";
 import { published, getRSS } from "@data/post"
 
 export async function getStaticPaths({ rss }) {
-	const markdownFiles = await Astro.fetchContent('../content/**/*.md');
+	const markdownFiles = await Astro.glob('../content/**/*.md');
 	const posts = published( markdownFiles );
 	
-	rss(getRSS(posts));
+	rss(getRSS(markdownFiles));
 
 	return posts.map((post) => {
 		return {
