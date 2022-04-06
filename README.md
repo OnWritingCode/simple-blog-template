@@ -1,5 +1,7 @@
 # 🛸 Simple Blog Template
 
+[Demo](https://simple-blog-template.netlify.app/) 👀 
+
 This is a starter template for starting a blog with Astro.js with a few basic utilities to get you started.
 
 **Features**
